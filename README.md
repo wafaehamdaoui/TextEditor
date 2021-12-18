@@ -79,9 +79,18 @@ in this menu we have just about Action to give some information about the applic
 ## Part 2 :
 This part is about TextEditor Class Implementation.
 
-1- Costractor:
+1- Constractor:
 
 In the constructor, we start by creating the actual instances of widgets using setupUi() method **( setupUi() is created for you automatically by UIC (UI compiler - a Qt tool) so we don't have to do that manually. All the properties that we set in QtDesigner and all elements we put there will be "translated" in C++ code )** . Then we call setCentralWidget() to tell that this is going to be the widget that occupies the central area of the main window, between the toolbars and the status bar.
+cpp```
+TextEditor::TextEditor(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::TextEditor)
+{
+    ui->setupUi(this);
+    setCentralWidget(ui->textEdit);
+}
+cpp
 
 
 

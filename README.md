@@ -160,9 +160,11 @@ If we successfully opened the file, we use a QTextStream object to read in the d
 
 Then we Put the text in the textEdit widget using setText() method,
 
-The open slot is invoked when the user clicks File|Open. 
+The open slot is invoked when the user clicks File|Open. And then we can choose the file that we want to resad.
 
+![image](https://user-images.githubusercontent.com/75392302/146651024-045b5261-1a7a-4fb0-b9ea-b3684900377d.png)
 
+![image](https://user-images.githubusercontent.com/75392302/146651081-c2e35c77-aa2b-4b4c-a1a5-d91fb6dfd458.png)
 
 ### Save 
 ```cpp
@@ -191,7 +193,12 @@ We start by Trying to write the file as a write-only mode file if possible or di
 
 If we successfully write the file, we use a QDataStream object to write on the data.
 
-The save slot is invoked when the user clicks File|Save. 
+The save slot is invoked when the user clicks File|Save. Then we name our file and save it. 
+
+![image](https://user-images.githubusercontent.com/75392302/146651024-045b5261-1a7a-4fb0-b9ea-b3684900377d.png)
+
+![image](https://user-images.githubusercontent.com/75392302/146651230-ebd8e7f8-2527-4cc1-bb49-dca160e367fb.png)
+
 
 ### Exit:
 
@@ -217,6 +224,8 @@ void TextEditor::on_actionCut_triggered()
 **When the user wants to cut the text, we call the private slot cut().**
 
 we can also execute copy() and delete() slots.
+
+
 
 ### copy
 ```cpp

@@ -320,6 +320,25 @@ void TextEditor::on_actionyellow_triggered()
 
 ![image](https://user-images.githubusercontent.com/75392302/146649413-e751ece8-673b-4d33-9df9-bab344c2a888.png)
 
+![image](https://user-images.githubusercontent.com/75392302/146649483-fc769862-75c7-483f-98a4-b1d537693c4b.png)
+
+![image](https://user-images.githubusercontent.com/75392302/146649508-42cebb55-ec0b-4552-9076-69eeba517e60.png)
+
+**Blue**
+```cpp
+void TextEditor::on_actionblue_triggered()
+{
+    ui->textEdit->setTextColor(QColor(0,0,255));
+}
+
+```
+**When the user wants to change the color of text to yellow , we call the private slot setTextColor() and give it a QColor(The QColor class provides colors based on RGB, HSV or CMYK values) as a parameter .**
+
+ First we write a text,and click on select all, then we go to text menu and color action , and select blue one
+ 
+ ![image](https://user-images.githubusercontent.com/75392302/146649621-ffc67855-2db4-45be-a2e5-180b1863c8cb.png)
+
+![image](https://user-images.githubusercontent.com/75392302/146649631-b1d178c0-9b74-423f-b319-e6a7b8349ac7.png)
 
 
 ### About Action
@@ -338,6 +357,9 @@ void TextEditor::on_actionAbout_triggered()
 ![Screenshot (7)](https://user-images.githubusercontent.com/75392302/146647683-4d8cd460-22f4-4b60-a9ba-b94d16cad762.png)
 
 ![Screenshot (8)](https://user-images.githubusercontent.com/75392302/146649444-599d690d-831e-438d-a97d-d86f8f0d9513.png)
+
+![Screenshot (9)](https://user-images.githubusercontent.com/75392302/146649652-17911e56-a75a-42ad-a851-a4b3be74a0d5.png)
+
 
 
 

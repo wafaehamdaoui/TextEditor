@@ -29,7 +29,7 @@ Set of menus for our application.
 #### Actions:
 now we shoud add actions to every menu
 
-1- file menu's actions:
+***1- file menu's actions:***
 
 ![image](https://user-images.githubusercontent.com/75392302/146641459-08f7aab2-2c89-45ab-8105-3a6cf224fe89.png)
 
@@ -41,7 +41,7 @@ Save & save as :  actions to Save the current file,
 
 Exit : Operation close.
 
-2-Edit menu's actions:
+***2-Edit menu's actions:***
 
 ![image](https://user-images.githubusercontent.com/75392302/146642258-6bac8485-cd73-4cc0-b398-3374b0136d01.png)
 
@@ -53,13 +53,13 @@ Paste : Action to paste the text,
 
 Select All : Action to select the full text.
 
-3-Text menu's actions:
+***3-Text menu's actions:***
 
 this menu is about some text's formats like Italic format or underline the text or the color of our text( red , blue , yellow ).
 
 ![image](https://user-images.githubusercontent.com/75392302/146642322-38bc5fbf-f3b0-47de-a050-75395eba0dc3.png)
 
-4-View menu's actions:
+***4-View menu's actions:***
 
 ![image](https://user-images.githubusercontent.com/75392302/146642376-2246f029-a45a-4870-892d-00ca8951a0fd.png)
 
@@ -70,13 +70,13 @@ Redo : Restores the most recent UNDO operation performed on the text,
 Zoom in/out  : for changing font size.
 
 
-5-Help menu's actions:
+***5-Help menu's actions:***
 
 in this menu we have just about Action to give some information about the application.
 
 ![image](https://user-images.githubusercontent.com/75392302/146642406-1c8ec0b7-6b56-4b39-a5ea-8129eedb376c.png)
 
-### For our application, we will add main toolbar with the following actions:
+### Toolbar 
 
 For our application, we will add main toolbar with the following actions:
 
@@ -268,6 +268,14 @@ Then we click Edit|Copy:
 
 ![image](https://user-images.githubusercontent.com/75392302/146651877-f0668606-e65e-4ea3-872e-76bdbfe82c1b.png)
 
+And we click Edit|Paste:
+
+![image](https://user-images.githubusercontent.com/75392302/146651924-d16c9f0d-d51c-46e9-a2cd-cb1798d7a571.png)
+
+Here is the result:
+
+![image](https://user-images.githubusercontent.com/75392302/146651976-a51f070e-4a6a-417a-bef0-abf9fad23d28.png)
+
 
 
 ### Zoom in
@@ -280,6 +288,11 @@ void TextEditor::on_actionZoom_in_triggered()
 ```
 **When the user wants to increase the size of text the full text , we call the private slot zoomIn().**
 
+![image](https://user-images.githubusercontent.com/75392302/146652220-9d3843ba-5e96-4e19-a150-7ecf5489db97.png)
+
+![image](https://user-images.githubusercontent.com/75392302/146652226-0218953e-d4b9-45b7-8b85-b4e986b8cc7e.png)
+
+
 ### Zoom out
 ```cpp
 void TextEditor::on_actionZoom_out_triggered()
@@ -289,6 +302,12 @@ void TextEditor::on_actionZoom_out_triggered()
 
 ```
 **When the user wants to decrease the size of text , we call the private slot zoomOut().**
+
+![image](https://user-images.githubusercontent.com/75392302/146652217-b6c4d3b2-74f6-450a-b9db-990509eb8c95.png)
+
+
+![image](https://user-images.githubusercontent.com/75392302/146652201-e5a93252-58cf-415b-87c8-d729bf34d7f8.png)
+
 
 ### Italic font
 ```cpp
@@ -300,6 +319,19 @@ void TextEditor::on_actionItalic_triggered()
 ```
 **When the user wants to change the font of text to italic format , we call the private slot setFontItalic() and give it "true" as a parameter.**
 
+First we write  a text:
+
+![image](https://user-images.githubusercontent.com/75392302/146652265-f0661eef-5f61-4695-b962-fb35c95a83e0.png)
+
+Then I select the words that I want change their format to iltalic format 
+
+![image](https://user-images.githubusercontent.com/75392302/146652361-56b417cf-8916-4c07-bb63-554c605144c7.png)
+
+Finally we click on Text|Italic:
+
+![image](https://user-images.githubusercontent.com/75392302/146652445-f720235f-f7e3-45cf-a17e-f7b6c966794b.png)
+
+
 ### underline font
 ```cpp
 void TextEditor::on_actionunderline_triggered()
@@ -310,7 +342,20 @@ void TextEditor::on_actionunderline_triggered()
 ```
 **When the user wants to change the font of text (underline the text) , we call the private slot setFontUnderline() and give it "true" as a parameter.**
 
-### Color 's text
+First we write  a text:
+
+![image](https://user-images.githubusercontent.com/75392302/146652265-f0661eef-5f61-4695-b962-fb35c95a83e0.png)
+
+Then I select the words that I want to underline 
+
+![image](https://user-images.githubusercontent.com/75392302/146652502-63ea6c0a-7841-4e30-a72f-502c5ab36ea8.png)
+
+Finally we click on Text|Underline:
+
+![image](https://user-images.githubusercontent.com/75392302/146652525-b9d589a3-88fd-4899-8561-83b265953bc6.png)
+
+
+### Color's text
 For color action we add tree color **red, blue, yellow,** and we can select the color that we want to write with.
 
 **red**
@@ -406,21 +451,5 @@ void TextEditor::on_actionAbout_triggered()
 ![image](https://user-images.githubusercontent.com/75392302/146646941-f8f34adc-d460-43f0-b3f3-4fd5caae9673.png)
 
 
-![Screenshot (7)](https://user-images.githubusercontent.com/75392302/146647683-4d8cd460-22f4-4b60-a9ba-b94d16cad762.png)
 
-![Screenshot (8)](https://user-images.githubusercontent.com/75392302/146649444-599d690d-831e-438d-a97d-d86f8f0d9513.png)
-
-![Screenshot (9)](https://user-images.githubusercontent.com/75392302/146649652-17911e56-a75a-42ad-a851-a4b3be74a0d5.png)
-
-![Screenshot (10)](https://user-images.githubusercontent.com/75392302/146651006-c3c42722-a83c-4fef-a4ff-4185fd50552f.png)
-
-
-
-![Screenshot (11)](https://user-images.githubusercontent.com/75392302/146651666-5f97bbd4-f0e0-41cd-82cc-cd34ab303eca.png)
-
-
-
-![Screenshot (12)](https://user-images.githubusercontent.com/75392302/146651851-37611bc9-3a01-49e1-94a5-c819a714e624.png)
-
- ![Screenshot (13)](https://user-images.githubusercontent.com/75392302/146651897-65e03582-a9d0-4cf6-99c6-399db406eaf3.png)
-
+**Thank you**

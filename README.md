@@ -33,7 +33,14 @@ now we shoud add actions to every menu
 
 ![image](https://user-images.githubusercontent.com/75392302/146641459-08f7aab2-2c89-45ab-8105-3a6cf224fe89.png)
 
-![Screenshot (3)](https://user-images.githubusercontent.com/75392302/146641481-65899248-0dfb-4536-8b69-a6a9426eec5b.png)
+2-Edit menu's actions:
+
+**** fgggdh
+
+![image](https://user-images.githubusercontent.com/75392302/146642258-6bac8485-cd73-4cc0-b398-3374b0136d01.png)
+
+![Screenshot (4)](https://user-images.githubusercontent.com/75392302/146642265-e573b8b4-b2ec-48fe-96b6-b40f93ec8aed.png)
+
 
 
 

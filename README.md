@@ -266,6 +266,8 @@ First we select the full text:
 
 Then we click Edit|Copy:
 
+![image](https://user-images.githubusercontent.com/75392302/146651877-f0668606-e65e-4ea3-872e-76bdbfe82c1b.png)
+
 
 
 ### Zoom in
@@ -420,4 +422,5 @@ void TextEditor::on_actionAbout_triggered()
 
 ![Screenshot (12)](https://user-images.githubusercontent.com/75392302/146651851-37611bc9-3a01-49e1-94a5-c819a714e624.png)
 
- 
+ ![Screenshot (13)](https://user-images.githubusercontent.com/75392302/146651897-65e03582-a9d0-4cf6-99c6-399db406eaf3.png)
+

@@ -296,7 +296,10 @@ void TextEditor::on_actionRed_triggered()
  
  First we write a text,and click on select all, then we go to text menu and color action , and select red one 
  
- ![image](https://user-images.githubusercontent.com/75392302/146647655-9c4a6949-521b-461c-ba71-6b7c9f972767.png)![image](https://user-images.githubusercontent.com/75392302/146647777-3206ebbd-d757-4223-bd2f-517359b60863.png)![image](https://user-images.githubusercontent.com/75392302/146647721-b3e71d41-8d67-4875-a943-93fab0d4fe62.png)![image](https://user-images.githubusercontent.com/75392302/146647821-d6f35df7-ee61-40d7-9a09-c2d0fcf8841b.png)
+ ![image](https://user-images.githubusercontent.com/75392302/146647655-9c4a6949-521b-461c-ba71-6b7c9f972767.png)
+ ![image](https://user-images.githubusercontent.com/75392302/146647777-3206ebbd-d757-4223-bd2f-517359b60863.png)
+ ![image](https://user-images.githubusercontent.com/75392302/146647721-b3e71d41-8d67-4875-a943-93fab0d4fe62.png)
+ ![image](https://user-images.githubusercontent.com/75392302/146647821-d6f35df7-ee61-40d7-9a09-c2d0fcf8841b.png)
 
 
 

@@ -10,7 +10,7 @@ This project will be about how to build a simple but useful rich-text editor usi
  Before we get started,  we need to add resources files for icons.
  
  ## Resource Files
-The text editor uses several icons to represent various actions. The icons are in the resources directory which is directly under the TextEditor project directory. The images as well as the project files are also listed in the icons documentation .
+The text editor uses several icons to represent various actions. The icons are in the resources directory which is directly under the TextEditor project directory. 
 
 To register the image files, in the Edit mode, right-click the icons.qrc file and select Open in Editor.
 
@@ -197,7 +197,7 @@ The save slot is invoked when the user clicks File|Save. Then we name our file a
 
 ![image](https://user-images.githubusercontent.com/75392302/146651024-045b5261-1a7a-4fb0-b9ea-b3684900377d.png)
 
-![image](https://user-images.githubusercontent.com/75392302/146651230-ebd8e7f8-2527-4cc1-bb49-dca160e367fb.png)
+![image](https://user-images.githubusercontent.com/75392302/146653416-91302b6c-7692-411f-9973-5d61d0c363be.png)
 
 
 ### Exit:

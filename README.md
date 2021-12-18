@@ -114,6 +114,10 @@ void TextEditor::on_actionNew_triggered()
 The newFile slot is invoked when the user selects File|New from the menu.
 we clear the QPlainTextEdit 
 
+![image](https://user-images.githubusercontent.com/75392302/146650948-b752f564-45f8-4cc1-8421-4f0643751500.png)![image](https://user-images.githubusercontent.com/75392302/146650977-8ca3da28-ee7f-4dd1-a012-6bc248a3e587.png)
+
+
+
 ### Open File:
 ```cpp
 void TextEditor::on_actionOpen_triggered()
@@ -157,6 +161,8 @@ If we successfully opened the file, we use a QTextStream object to read in the d
 Then we Put the text in the textEdit widget using setText() method,
 
 The open slot is invoked when the user clicks File|Open. 
+
+
 
 ### Save 
 ```cpp
@@ -340,6 +346,29 @@ void TextEditor::on_actionblue_triggered()
 
 ![image](https://user-images.githubusercontent.com/75392302/146649631-b1d178c0-9b74-423f-b319-e6a7b8349ac7.png)
 
+![image](https://user-images.githubusercontent.com/75392302/146649686-8c4afac2-acae-4b07-bd7e-3dbff18cb7c8.png)
+
+![image](https://user-images.githubusercontent.com/75392302/146649713-df47808c-1385-4a62-89b4-61ca33e94638.png)
+
+**Undo**
+```cpp
+void TextEditor::on_actionundo_triggered()
+{
+    ui->textEdit->undo();
+}
+
+```
+**When the user wants to Erase the last change made on the text , we call the private slot undo().**
+
+**Redo**
+```cpp
+void TextEditor::on_actionredo_triggered()
+{
+    ui->textEdit->redo();
+}
+
+```
+**When the user wants to cancel recent UNDO operation performed on the text , we call the private slot redo().**
 
 ### About Action
 ```cpp
@@ -359,6 +388,9 @@ void TextEditor::on_actionAbout_triggered()
 ![Screenshot (8)](https://user-images.githubusercontent.com/75392302/146649444-599d690d-831e-438d-a97d-d86f8f0d9513.png)
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/75392302/146649652-17911e56-a75a-42ad-a851-a4b3be74a0d5.png)
+
+![Screenshot (10)](https://user-images.githubusercontent.com/75392302/146651006-c3c42722-a83c-4fef-a4ff-4185fd50552f.png)
+
 
 
 

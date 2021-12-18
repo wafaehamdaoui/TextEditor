@@ -5,6 +5,7 @@ This project will be about how to build a simple but useful rich-text editor usi
 
  This is what it’ll look like at the end of this project
  
- ![image](https://user-images.githubusercontent.com/75392302/146639007-2265c725-36c1-41f7-a246-b51d87cfd07e.png)
+ ![image](https://user-images.githubusercontent.com/75392302/146639061-067010fd-e8f4-4a76-a4ec-00b37d0dc352.png)
+
 
  

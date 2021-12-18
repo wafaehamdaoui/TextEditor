@@ -221,17 +221,15 @@ void TextEditor::on_actionCut_triggered()
 }
 
 ```
-**When the user wants to cut the text, we call the private slot cut().**
+**When the user wants to cut the text, we call the private slot cut(). ( we can also execute copy() and delete() slots.)**
 
 First we select the part that we want to cut, then we click Edit|Cut 
 
 ![image](https://user-images.githubusercontent.com/75392302/146651651-c219d674-5b99-40ef-80e3-47a52e992286.png)
 
+![image](https://user-images.githubusercontent.com/75392302/146651716-97481272-29c9-4a0f-ac3a-cc66efbdc9cb.png)
 
-
-we can also execute copy() and delete() slots.
-
-
+![image](https://user-images.githubusercontent.com/75392302/146651734-d31aecea-2902-4ebf-a520-88a430e48705.png)
 
 ### copy
 ```cpp
@@ -261,6 +259,14 @@ void TextEditor::on_actionSelect_All_triggered()
 }
 ```
 **When the user wants to select the full text , we call the private slot selectAll().**
+
+First we select the full text:
+
+![image](https://user-images.githubusercontent.com/75392302/146651803-179e18d4-68de-4815-984f-b27259a79cd8.png)
+
+Then we click Edit|Copy:
+
+
 
 ### Zoom in
 ```cpp
@@ -412,5 +418,6 @@ void TextEditor::on_actionAbout_triggered()
 
 
 
+![Screenshot (12)](https://user-images.githubusercontent.com/75392302/146651851-37611bc9-3a01-49e1-94a5-c819a714e624.png)
 
  

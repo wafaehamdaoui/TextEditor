@@ -223,6 +223,12 @@ void TextEditor::on_actionCut_triggered()
 ```
 **When the user wants to cut the text, we call the private slot cut().**
 
+First we select the part that we want to cut, then we click Edit|Cut 
+
+![image](https://user-images.githubusercontent.com/75392302/146651651-c219d674-5b99-40ef-80e3-47a52e992286.png)
+
+
+
 we can also execute copy() and delete() slots.
 
 
@@ -402,6 +408,7 @@ void TextEditor::on_actionAbout_triggered()
 
 
 
+![Screenshot (11)](https://user-images.githubusercontent.com/75392302/146651666-5f97bbd4-f0e0-41cd-82cc-cd34ab303eca.png)
 
 
 

@@ -34,8 +34,11 @@ now we shoud add actions to every menu
 ![image](https://user-images.githubusercontent.com/75392302/146641459-08f7aab2-2c89-45ab-8105-3a6cf224fe89.png)
 
 New : Action to create a new file,
+
 Open : Action to open a new file,
+
 Save & save as :  actions to Save the file,
+
 Exit : Operation close.
 
 2-Edit menu's actions:
@@ -43,8 +46,11 @@ Exit : Operation close.
 ![image](https://user-images.githubusercontent.com/75392302/146642258-6bac8485-cd73-4cc0-b398-3374b0136d01.png)
 
 Cut : Action to cut the text,
+
 Copy : Action to copy the text,
+
 Paste : Action to paste the text,
+
 Select All : Action to select the full text.
 
 3-Text menu's actions:
@@ -58,13 +64,15 @@ this menu is about some text's formats like Italic format or underline the text 
 ![image](https://user-images.githubusercontent.com/75392302/146642376-2246f029-a45a-4870-892d-00ca8951a0fd.png)
 
 Undo : Erases the last change made to the text,
+
 Redo : Restores the most recent UNDO operation performed on the text,
+
 Zoom in/out  : for changing font size.
 
 
 5-Help menu's actions:
 
-in this menu we have just about Action to give some information azbout the application.
+in this menu we have just about Action to give some information about the application.
 
 ![image](https://user-images.githubusercontent.com/75392302/146642406-1c8ec0b7-6b56-4b39-a5ea-8129eedb376c.png)
 

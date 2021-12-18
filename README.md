@@ -37,14 +37,15 @@ now we shoud add actions to every menu
 
 ![image](https://user-images.githubusercontent.com/75392302/146642258-6bac8485-cd73-4cc0-b398-3374b0136d01.png)
 
-3-Text menu' s actions:
+3-Text menu's actions:
 
 ![image](https://user-images.githubusercontent.com/75392302/146642322-38bc5fbf-f3b0-47de-a050-75395eba0dc3.png)
 
+View menu's actions:
 
-![Screenshot (5)](https://user-images.githubusercontent.com/75392302/146642342-3a0140c4-de36-412c-8996-1a488474f2fb.png)
+![image](https://user-images.githubusercontent.com/75392302/146642376-2246f029-a45a-4870-892d-00ca8951a0fd.png)
 
-
+Help menu's actions:
 ![Screenshot (6)](https://user-images.githubusercontent.com/75392302/146642345-63e86019-419d-4dcf-85a1-7481e34f3746.png)
 
 

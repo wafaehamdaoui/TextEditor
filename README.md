@@ -29,9 +29,12 @@ Set of menus for our application.
 _Actions:
 now we shoud add actions to every menu
 
-1- file menu's actions:
+1- file menu's actionss
 
-![Screenshot (2)](https://user-images.githubusercontent.com/75392302/146641416-000e8389-0204-448b-962f-4792ed9ad5d3.png)
+![image](https://user-images.githubusercontent.com/75392302/146641459-08f7aab2-2c89-45ab-8105-3a6cf224fe89.png)
+
+![Screenshot (3)](https://user-images.githubusercontent.com/75392302/146641481-65899248-0dfb-4536-8b69-a6a9426eec5b.png)
+
 
 
 

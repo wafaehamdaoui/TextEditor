@@ -35,9 +35,9 @@ now we shoud add actions to every menu
 
 New : Action to create a new file,
 
-Open : Action to open a new file,
+Open : Action to open a  file,
 
-Save & save as :  actions to Save the file,
+Save & save as :  actions to Save the current file,
 
 Exit : Operation close.
 
@@ -76,6 +76,12 @@ in this menu we have just about Action to give some information about the applic
 
 ![image](https://user-images.githubusercontent.com/75392302/146642406-1c8ec0b7-6b56-4b39-a5ea-8129eedb376c.png)
 
+## Part 2 :
+This part is about TextEditor Class Implementation.
+
+1- Costractor:
+
+In the constructor, we start by creating the actual instances of widgets using setupUi() method **( setupUi() is created for you automatically by UIC (UI compiler - a Qt tool) so we don't have to do that manually. All the properties that we set in QtDesigner and all elements we put there will be "translated" in C++ code )** . Then we call setCentralWidget() to tell that this is going to be the widget that occupies the central area of the main window, between the toolbars and the status bar.
 
 
 

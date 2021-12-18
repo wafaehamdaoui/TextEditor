@@ -453,3 +453,5 @@ void TextEditor::on_actionAbout_triggered()
 
 
 **Thank you**
+
+> Amazing dedication as usual. Keep up the good work and hope it's not all for the project as we still have some missing functinalities in the Spreadsheet application. Again Excellent work!
